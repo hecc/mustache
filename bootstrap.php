@@ -2,5 +2,5 @@
 ini_set("display_errors", 1);
 error_reporting(E_ALL);
 
-require "Darwin/Autoloader.php";
-\Darwin\Autoloader::getInstance()->register();
+require "Mustache/Autoloader.php";
+\Mustache\Autoloader::getInstance()->register();
